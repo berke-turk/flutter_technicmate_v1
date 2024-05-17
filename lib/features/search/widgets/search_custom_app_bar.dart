@@ -5,7 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/zondicons.dart';
 
-class SearchCustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class SearchCustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const SearchCustomAppBar({
     Key? key,
   }) : super(key: key);

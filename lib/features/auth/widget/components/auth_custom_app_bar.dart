@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_technicmate_v1/constants/assets_constant.dart';
 
-class AuthCustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class AuthCustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const AuthCustomAppBar({
     Key? key,
   }) : super(key: key);
