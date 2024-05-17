@@ -12,7 +12,7 @@ void main() {
       darkTheme: AppTheme.theme,
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
-      home: const BottomNavigationView(),
+      home: const LoginView(),
     ),
   );
 }
