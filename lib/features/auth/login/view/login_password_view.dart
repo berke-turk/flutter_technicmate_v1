@@ -51,7 +51,7 @@ class _LoginPasswordState extends State<LoginPassword> {
               rightButtonText: rightButtonText,
               onPressedRight: () {
                 widget.signIn.password = textEditingController.text;
-                // Get.to(() => const BottomNavigationView(), transition: Transition.rightToLeft);
+                Get.to(() => const BottomNavigationView(), transition: Transition.rightToLeft);
               },
               onPressedLeft: () {
                 Get.to(() => const LoginForgotPassword(), transition: Transition.leftToRight);
